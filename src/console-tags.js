@@ -30,7 +30,7 @@
  * msgType.error('text-1', 'text-2')
  */
 
-const msg = (
+const _custom = (
   msg1  = '',
   msg2  = '',
   bg    = '#607d8b',
@@ -92,7 +92,7 @@ const _sarning = (
   );
 }
 
-export default msg
-export const   success  = _success
-export const   error    = _error
-export const   warning  = _sarning
+export const custom  = _custom
+export const success = _success
+export const error   = _error
+export const warning = _sarning
